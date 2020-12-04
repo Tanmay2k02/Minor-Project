@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamta Saree : Be Unique, Be Bold, Be Divine</title>
+    <link rel="stylesheet" href="home style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="home page.html "><img src="Images/Mamta-Sarees-Logo.jpg" width="100px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="home page.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Products &nbsp;<i class="fa fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                          <a href="Sarees.html">Sarees</a>
+                          <a href="Lehengas.html">Lehenga</a>
+                          <a href="Dresses.html">Dresses</a>
+                          <a href="Suits.html">Suits</a>
+                        </div>
+                    </li>
+                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="contact us.html">Contact Us</a></li>
+                    <li><a href="account page.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html">
+                <img src="images/cart.png" width="30px" height="30px">
+            </a>    
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+</div>
+
+<!-- About us -->
+
+<div class="small-container">
+    <div class="row">
+        <div class="about-us">
+            <h1>MAMTA SAREE <br>
+            Be Unique,&nbsp; Be Bold,&nbsp; Be Divine</h1>
+            <h3>About Us</h3>
+            <p>MAMTA SAREE is one of the oldest(SINCE 1994) buying houses based in sagarpur. Company deals in manufacturing and trading of saree, lehengas and dresses. The buying house mainly focuses on customer satisfaction and maximum benefits to the customers. Moreover, it is expanding its length and depth from all sides, Services and delivery schedule. We deal in in sarees, lehengas and dresses.
+            <br>
+            <br>
+            Our team of expert designers, sales team, across various divisions ensures that we provide highly sophisticated, unique designed pieces for our customers. The company main focus on buying best designs at reasonable price for our customers. The principal customers have extended patronage to us a long time. An achievement largely attributable to our personalized commitment to product standards, services and delivery schedule
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+<div class="footer">
+    <div class="continer">
+        <div class="row">
+
+            <div class="footer-col-2">
+                <a href="home page.html"><img src="Images/Mamta-Sarees-Logo.jpg"></a>
+                <p>Our purpose Is To Susainably Make your Day Awesome with aspirational ethnic wear and amp up their swag with our Collections</p>
+            </div>
+            <div class="footer-col-3">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li>Mamta Sarre<br>
+                    <p>RZ-K-35,Gandhi Market
+                    <br>Sagar Pur
+                    <br>New Delhi 110046 
+                    <br>INDIA</p></li>
+                    <li>Phone:~ +91 9654547054</li>
+                    <li>Email:~ viditkhandelwal2093@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h2>Follow us</h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/mamtasareecenter/" target="_blank"><i class="fa fa-facebook">Facebook</i></a></li>
+                    <li><a href="https://www.instagram.com/mamtasaree_/" target="_blank"><i class="fa fa-instagram">Instagram</i></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=919654547054" target="_blank"><i class="fa fa-whatsapp"></i>Whatsapp</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020 @ Tanmay Khandelwal</p>
+    </div>
+</div>
+
+<!-- js for toggle menu -->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+           {
+            MenuItems.style.maxHeight = "200px"
+           }
+        else
+           {
+            MenuItems.style.maxHeight = "0px"
+           }
+    }
+</script>
+
+</body>
+</html>
